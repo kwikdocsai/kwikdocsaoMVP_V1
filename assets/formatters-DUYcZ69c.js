@@ -1,1 +1,0 @@
-const o=r=>{const t=typeof r=="string"?parseFloat(r):r;return t==null||isNaN(t)?"0,00 Kz":new Intl.NumberFormat("pt-AO",{minimumFractionDigits:2,maximumFractionDigits:2}).format(t).replace(/\./g," ")+" Kz"},e=r=>{const t=parseFloat(r)||0;return t>=1e6?`${(t/1e6).toFixed(1)}M Kz`:t>=1e3?`${(t/1e3).toFixed(0)}k Kz`:o(t)};export{o as a,e as f};
