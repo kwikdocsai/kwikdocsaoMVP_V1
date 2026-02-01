@@ -1,1 +1,0 @@
-import{a as s}from"./index-BpXQhJ2T.js";const m=()=>{const{isProcessing:c,notifications:t,stopNotificationSound:i,setSelectedDocument:o,completionStats:n,clearCompletionStates:a}=s();return t.find(e=>e.type==="success"&&!e.read&&new Date().getTime()-new Date(e.timestamp).getTime()<6e4),null};export{m as NotificationTicker};
